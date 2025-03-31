@@ -1,0 +1,21 @@
+JWT Tokens (expires in 24 hours)
+Generated on: Mon, 31 Mar 2025 22:56:34 CEST
+
+=== admin ===
+Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYWRtaW4iLCJleHAiOjE3NDM1NDA5OTQsImlhdCI6MTc0MzQ1NDU5NH0.Q1iy6SHzeA5Vok3X1iWtKU_-jdIPQ2pFnUhFD0IOgyM
+
+Curl command:
+curl -X GET http://localhost:8080/api -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYWRtaW4iLCJleHAiOjE3NDM1NDA5OTQsImlhdCI6MTc0MzQ1NDU5NH0.Q1iy6SHzeA5Vok3X1iWtKU_-jdIPQ2pFnUhFD0IOgyM"
+
+=== client ===
+Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiY2xpZW50IiwiZXhwIjoxNzQzNTQwOTk0LCJpYXQiOjE3NDM0NTQ1OTR9.NydGeCsoUK2ydKi-9g7OjS0PwDMdxlg1WE6QB2qRmig
+
+Curl command:
+curl -X GET http://localhost:8080/api -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiY2xpZW50IiwiZXhwIjoxNzQzNTQwOTk0LCJpYXQiOjE3NDM0NTQ1OTR9.NydGeCsoUK2ydKi-9g7OjS0PwDMdxlg1WE6QB2qRmig"
+
+=== user ===
+Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoidXNlciIsImV4cCI6MTc0MzU0MDk5NCwiaWF0IjoxNzQzNDU0NTk0fQ.JJLOvlpaoXeBaHmt3KI55o9Ewnjx5QTH0ruwSb4WHXA
+
+Curl command:
+curl -X GET http://localhost:8080/api -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoidXNlciIsImV4cCI6MTc0MzU0MDk5NCwiaWF0IjoxNzQzNDU0NTk0fQ.JJLOvlpaoXeBaHmt3KI55o9Ewnjx5QTH0ruwSb4WHXA"
+
